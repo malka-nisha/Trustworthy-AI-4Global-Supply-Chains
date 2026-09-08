@@ -1,0 +1,7 @@
+numpy==2.2.3
+pandas==2.2.3
+scipy==1.15.1
+scikit-learn==1.6.1
+networkx==3.4.2
+pymc==5.20.1
+torch==2.5.1

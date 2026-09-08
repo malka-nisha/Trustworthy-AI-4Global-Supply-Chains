@@ -1,0 +1,32 @@
+{
+  "seed": 20260602,
+  "data_path": "DataCoSupplyChainDataset.csv",
+  "rows_loaded": 180519,
+  "train_n": 60000,
+  "eval_n": 25000,
+  "epochs": 160,
+  "batch_size": 2048,
+  "lr": 0.012,
+  "rl_training_seconds_total": 9.619160959002329,
+  "policies": [
+    "Static heuristic",
+    "Bayesian risk-only",
+    "Digital-twin-only",
+    "Pure RL (no KG)",
+    "RL + KG (no fairness)",
+    "RL + fairness (no KG)",
+    "RL + KG + fairness",
+    "Robust risk-averse",
+    "Full KG-GPP"
+  ],
+  "scenarios": [
+    "calibrated",
+    "gamma_delay_kernel",
+    "heavy_tail_shocks",
+    "delay_plus_10pct",
+    "delay_plus_20pct",
+    "delay_minus_10pct",
+    "trust_noise_sd_0.05",
+    "missing_proxy_10pct"
+  ]
+}
