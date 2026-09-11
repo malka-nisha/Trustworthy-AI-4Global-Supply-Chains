@@ -7,7 +7,7 @@
   "epochs": 160,
   "batch_size": 2048,
   "lr": 0.012,
-  "rl_training_seconds_total": 9.619160959002329,
+  "rl_training_seconds_total": 8.619802207977045,
   "policies": [
     "Static heuristic",
     "Bayesian risk-only",
@@ -17,7 +17,7 @@
     "RL + fairness (no KG)",
     "RL + KG + fairness",
     "Robust risk-averse",
-    "Full KG-GPP"
+    "Proposed KG-GPP"
   ],
   "scenarios": [
     "calibrated",

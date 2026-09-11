@@ -5,3 +5,4 @@ scikit-learn==1.6.1
 networkx==3.4.2
 pymc==5.20.1
 torch==2.5.1
+matplotlib==3.10.9

@@ -1,0 +1,6 @@
+Construct,Data status,Operational definition
+Observed delivery delay,Directly observed in DataCo,Days for shipping (real) minus Days for shipment (scheduled)
+Late-delivery flag,Directly observed in DataCo,Late_delivery_risk field
+Trust,"Inferred proxy, not ground truth","Logistic-normalized reliability score from node late rate, positive delay, and adverse/cancelled/fraud order status"
+Bias/disparity,"Inferred operational proxy, not ground truth","Maximum absolute gap in late-delivery rate across observed region, customer-segment, and shipping-mode groups"
+Ideological risk,Not directly observed in DataCo,Not used as a ground-truth label; represented through endogenous trust/disparity proxies and exogenous stress scenarios
