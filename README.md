@@ -168,3 +168,21 @@ benchmark policies and eight robustness scenarios.
 
 The files in `results/` provide the machine-readable outputs needed to verify the
 computational results reported in the manuscript.
+
+
+## 7. Citation
+
+If you use this repository or its implementation in your research, please cite the following paper:
+
+Halgamuge, M. N., Abbasi, B., Thai, V., Ahsan, K., Cooper, V., & Warren, M. (2026). Trustworthy AI and Risk-Aware Planning for Global Supply Chains: A Probabilistic Framework with Knowledge Graph Constraints. *European Journal of Operational Research*.
+
+### BibTeX
+
+```bibtex
+@article{halgamuge2026trustworthy,
+  author  = {Halgamuge, M. N. and Abbasi, B. and Thai, V. and Ahsan, K. and Cooper, V. and Warren, M.},
+  title   = {Trustworthy AI and Risk-Aware Planning for Global Supply Chains: A Probabilistic Framework with Knowledge Graph Constraints},
+  journal = {European Journal of Operational Research},
+  year    = {2026}
+}
+```
